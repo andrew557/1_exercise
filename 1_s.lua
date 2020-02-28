@@ -87,9 +87,3 @@ local function checkingOnExit()
 end
 addEventHandler( "onPlayerLogout", root, checkingOnExit )
 addEventHandler( "onPlayerQuit", root, checkingOnExit )
-
-local function checkingDXMotionOnExit()
-	triggerClientEvent( source, "testingJSON:OnDestroyDXMotion", resourceRoot, false )
-end
-addEventHandler( "onPlayerLogout", root, checkingDXMotionOnExit )
-addEventHandler( "onPlayerQuit", root, checkingDXMotionOnExit )
