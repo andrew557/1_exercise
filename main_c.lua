@@ -1,4 +1,4 @@
-local DGS = exports.dgs
+local DGS = exports.dgs -- использование сторонней библиотеки на DX
 local tDGS = {
 	window = {},
 	tab = {},
